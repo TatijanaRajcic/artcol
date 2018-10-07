@@ -17,17 +17,25 @@
                 <div class="col-lg-6">
                     <div class="text-center">
                         <ul class="footer-menu footer-menu-sm">
-                            <li>
-                                <a href="#" style="padding-left: 0;">Home</a>
+                           <li>
+                                <a>
+                                    <%= link_to 'Home', root_path, style:"padding-left: 0; color:black" %>
+                                </a>
                             </li>
                             <li>
-                                <a href="#">About us</a>
+                                <a>
+                                    <%= link_to 'About us', about_path, style:"padding-left: 0; color:black" %>
+                                </a>                            
                             </li>
                             <li>
-                                <a href="#">Collections</a>
+                                <a>
+                                    <%= link_to 'Collections', collections_path, style:"padding-left: 0; color:black" %>
+                                </a>                             
                             </li>
                             <li>
-                                <a href="#">Contact us</a>
+                                <a>
+                                    <%= link_to 'Contact us', contact_path, style:"padding-left: 0; color:black" %>
+                                </a> 
                             </li>
                         </ul>
                     </div>

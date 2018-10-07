@@ -18,16 +18,24 @@
                     <div class="text-center">
                         <ul class="footer-menu footer-menu-sm">
                             <li>
-                                <a href="#" style="padding-left: 0; color:#333">Home</a>
+                                <a>
+                                    <%= link_to 'Home', root_path, style:"padding-left: 0; color:#333" %>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" style="color:#333">About us</a>
+                                <a>
+                                    <%= link_to 'About us', about_path, style:"padding-left: 0; color:#333" %>
+                                </a>                            
                             </li>
                             <li>
-                                <a href="#" style="color:#333">Collections</a>
+                                <a>
+                                    <%= link_to 'Collections', collections_path, style:"padding-left: 0; color:#333" %>
+                                </a>                             
                             </li>
                             <li>
-                                <a href="#" style="color:#333">Contact us</a>
+                                <a>
+                                    <%= link_to 'Contact us', contact_path, style:"padding-left: 0; color:#333" %>
+                                </a> 
                             </li>
                         </ul>
                     </div>

@@ -12,4 +12,8 @@ class StaticPagesController < ApplicationController
 
 	end
 
+	def collections
+
+	end
+
 end
