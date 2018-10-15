@@ -25,8 +25,8 @@
 *= require b-linea-icons.css
 *= require e-linea-icons.css
 *= require s-linea-icons.css
-*= require custom-style.css
 *= require boomerang.min.css
+*= require custom-style.css
 *= require_tree .
 */
 
